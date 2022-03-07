@@ -2,7 +2,7 @@
 
 body{
 	overflow:hidden;
-	background-color:#fcfcfc;
+	background-color:#000;
 	margin:0;
 	padding:0;
 }
@@ -64,4 +64,25 @@ body{
 	-o-box-shadow:0 0 20px #ccc;
 	-ms-box-shadow:0 0 20px #ccc;
 	box-shadow:0 0 20px #ccc;
+}
+
+button{
+   position:fixed;
+   bottom:5%;
+   right:5%;
+   width:50px;
+   height:50px;
+   text-align: center;
+   background:url("../image/back.png") no-repeat top 50% left 50% rgb(242, 143, 22);
+   padding:8px 12px 12px;
+   border-radius: 30px;
+   text-align: center;
+   border:none;
+   opacity: 0.5;
+   transition: ease 0.5s;
+	border:none;
+}
+button:hover{
+   opacity: 1;
+   transition: ease 0.5s;
 }
